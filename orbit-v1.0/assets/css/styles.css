@@ -64,16 +64,19 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
-  padding: 30px;
+  padding-bottom: 33px;
+  padding-top: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
 }
 .sidebar-wrapper .name {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 900;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 .sidebar-wrapper .tagline {
   color: rgba(255, 255, 255, 0.6);
@@ -83,7 +86,8 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .profile {
-  margin-bottom: 15px;
+  margin-bottom: 24px;
+  margin-top: 5px;
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
@@ -159,7 +163,7 @@ p {
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   color: #2d7788;
   position: relative;
@@ -188,7 +192,10 @@ p {
   top: -2px;
 }
 .main-wrapper .section {
-  margin-bottom: 60px;
+  margin-bottom: 45px;
+}
+.main-wrapper .summary-section .summary {
+  font-size:16px;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
@@ -217,7 +224,7 @@ p {
 }
 .main-wrapper .project-title {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -231,17 +238,13 @@ p {
   margin-bottom: 10px;
   color: #97AAC3;
 }
-.skills-section .item {
-  margin-bottom: 15px;
+.skills-section .skill-group {
+  margin-bottom: 12px;
   overflow: hidden;
 }
 .skills-section .level-title {
-/*  font-size: 14px;
-  margin-top: 0;
-  margin-bottom: 12px;*/
-
   color: #3F4650;
-  font-size: 17px;
+  font-size: 15px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 400;
