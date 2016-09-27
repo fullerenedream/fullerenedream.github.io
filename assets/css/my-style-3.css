@@ -104,7 +104,7 @@ p {
   vertical-align: middle;
 }
 .sidebar-wrapper .contact-list li {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
@@ -112,9 +112,17 @@ p {
 .sidebar-wrapper .contact-list .email .fa {
   font-size: 13px;
 }
-.sidebar-wrapper .container-block {
-/*  padding: 30px;*/
-  padding: 20px;
+.sidebar-wrapper .container-block-top {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.sidebar-wrapper .container-block-not-top {
+  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -167,7 +175,7 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .interests-list li {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
