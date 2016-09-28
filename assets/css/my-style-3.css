@@ -180,6 +180,10 @@ p {
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
 }
+.sidebar-wrapper #pdf-icon {
+  font-size: 25px;
+  margin-top: -5px;
+}
 .main-wrapper {
   background: #fff;
   padding: 60px;
