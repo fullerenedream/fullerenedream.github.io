@@ -11,7 +11,6 @@ written permission of Adobe.
 
 /* Pass the embed mode and viewer customization here */
 var viewerConfig = {
-    // embedMode: "IN_LINE",
     defaultViewMode: "",
     showAnnotationTools: false,
     showLeftHandPanel: false,
@@ -35,23 +34,12 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         content: {
             /* Location of file where it is hosted */
             location: {
-                // url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf",
                 url: "Jessica Peters - Resume.pdf",
-                /*
-                If the file URL requires some additional headers, then it can be passed as follows:-
-                header: [
-                    {
-                        key: "<HEADER_KEY>",
-                        value: "<HEADER_VALUE>",
-                    }
-                ]
-                */
             },
         },
         /* Pass meta data of file */
         metaData: {
             /* file name */
-            // fileName: "Bodea Brochure.pdf"
             fileName: "Jessica Peters - Resume.pdf"
         }
     }, viewerConfig);
