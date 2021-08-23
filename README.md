@@ -1,2 +1,2 @@
-#### This is the repo for my personal website,
-# [jessicapeters.ca](https://jessicapeters.ca "My CV")
+#### This is the repo for my online resume.
+# [jessicapeters.ca](https://jessicapeters.ca "My resume")
