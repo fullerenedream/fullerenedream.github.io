@@ -11,7 +11,10 @@ written permission of Adobe.
 
 /* Pass the embed mode and viewer customization here */
 var viewerConfig = {
-    embedMode: "IN_LINE",
+    // embedMode: "IN_LINE",
+    defaultViewMode: "",
+    showAnnotationTools: false,
+    showLeftHandPanel: false,
     showDownloadPDF: true,
     showPrintPDF: false,
 };
