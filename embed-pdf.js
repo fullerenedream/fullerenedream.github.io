@@ -36,7 +36,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
             /* Location of file where it is hosted */
             location: {
                 // url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf",
-                url: "JessicaPeters_resume.pdf",
+                url: "Jessica Peters - Resume.pdf",
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 header: [
@@ -52,7 +52,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         metaData: {
             /* file name */
             // fileName: "Bodea Brochure.pdf"
-            fileName: "JessicaPeters_resume.pdf"
+            fileName: "Jessica Peters - Resume.pdf"
         }
     }, viewerConfig);
 });
